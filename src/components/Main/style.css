@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+}
+
+body{
+    background: #37c1fa no-repeat;
+    background: -webkit-linear-gradient(136deg, #37c1fa 0%, #e05588 100%);
+    background: linear-gradient(136deg, #37c1fa 0%, #e05588 100%);
+}
+.container-calculator{
+    padding-top: 5%;
+}
+
+.main-calculator{
+    background: rgba(255,255,255,0.35);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: #282c34;
+}
+
+.right-element{
+    text-align: right;
+}
+
+.center-element{
+    text-align: center;
+}
+
+.button-calculator{
+    height: 100px;
+    width:  100px;
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 30px;
+}
+
